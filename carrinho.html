@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+    <h1>Carrinho de Compras</h1>
+    <div class="carrinho">
+        <h2>Itens no Carrinho (<span id="quantidade-itens">0</span>)</h2>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho serão adicionados aqui -->
+        </ul>
+        <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+        <h2>Endereço de Entrega</h2>
+        <form id="form-endereco">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required><br><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br><br>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required><br><br>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required><br><br>
+            <label for="tel">Telefone:</label>
+            <input type="text" id="tel" name="telefone" required><br><br>
+            <div>
+            <button type="submit" id="finalizar-compra">Finalizar Compra</button>
+        </div>
+        </form>
+        <div>
+        <button onclick="voltarParaProdutos()">Continuar Comprando</button>
+    </div>
+    </div>
+
+    <script src="js/script-carrinho.js"></script>
+</body>
+</html>
+

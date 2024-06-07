@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  text-align-last: center;
+}
+
+.navbar a {
+  background: white;
+  color: blue;
+  font-weight: 800;
+  font-size: 50px;
+  margin: 0 400px 0 0;
+}
+
+.navbar img {
+  width: 500px;
+  margin: 0 50px 0 335px;
+}
+
+.navbar-nav a {
+  font-family: Montserrat;
+}
+
+.container-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 590px;
+}
+
+.icon1 {
+  margin: 0 0 0 350px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  margin: 5px 0px 5px 0px;
+}
+
+.card img {
+  width: 50rem;
+}
+
+.card p {
+  font-family: Montserrat;
+}
+
+.card h5 {
+  font-family: Montserrat;
+}
+
+footer {
+  background-color: orange;
+  color: blue;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+footer p {
+  font-family: Montserrat;
+}
+
+/*# sourceMappingURL=index.css.map */
